@@ -1,2 +1,1 @@
-# Laboratorio5_React
-Laboratorio 5
+# Temperature Control 

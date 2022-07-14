@@ -4,8 +4,6 @@ import React, { useEffect, useState } from "react";
 
 function App() {
   // 1) Reemplaza estas variables por useState, puedes utilizar los valores iniciales que ya traen las variables
-  let temperatureColor = "cold";
-  let temperatureValue = "10";
   const [count, setCount] = useState(10);
   const [tempColor, setTempColor] = useState("cold");
 
@@ -26,11 +24,11 @@ function App() {
   }
 
   function check() {
-    if (count < 20) {
+    if (count < 19) {
         setTempColor("cold");
     }
 
-    if (count >= 20) {
+    if (count >= 19) {
         setTempColor("hot");
     }
   }
